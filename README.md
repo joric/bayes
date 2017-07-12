@@ -22,7 +22,7 @@ I.e. posterior = prior * likehood / evidence, where:
 * evidence = p(F1,..,Fn) = p(F1) * ... * p(Fn), constant to F.
 * likehood = p(F1|C) * ... * p(Fn|C)
 
-If posterior is larger by a certain margin, e.g. 0.99, we consider that questioning is done.
+If posterior hits a certain margin, e.g. 0.99, we consider that questioning is done.
 Otherwise we pick questions that decrease entropy in all the possible cases,
 both for YES and NO and everything in between.
 To determine the best question we have to calculate results for all the possible outcomes
