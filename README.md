@@ -23,10 +23,10 @@ I.e. posterior = prior * likehood / evidence, where:
 * likehood = p(F1|C) * ... * p(Fn|C)
 
 If posterior hits a certain margin, e.g. 0.99, we consider that questioning is done.
-Otherwise we pick features that decrease entropy in all the possible cases,
+Otherwise we pick features that decrease entropy in all possible cases,
 both for YES and NO and everything in between.
-To determine the best question we have to calculate results for all the possible outcomes
-and calculate entropy sum across all the classes, which is:
+To determine the best question we have to calculate results for all possible outcomes
+and calculate entropy sum across all classes, which is:
 
 entropy = -posterior * log(posterior)
 
