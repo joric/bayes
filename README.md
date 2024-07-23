@@ -1,5 +1,4 @@
-Bayes
-=====
+# Bayes
 
 Naive Bayes classifier, C-version (compile with -lm).
 
@@ -33,6 +32,6 @@ entropy = -posterior * log(posterior)
 That's, basically, all. Mind that p(C,F1,..,Fn) may exceed 1 on a redundant set of features.
 
 
+## References
 
-
-
+* https://github.com/ttezel/bayes A Naive-Bayes classifier for node.js
