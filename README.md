@@ -35,3 +35,4 @@ That's, basically, all. Mind that p(C,F1,..,Fn) may exceed 1 on a redundant set 
 ## References
 
 * https://github.com/ttezel/bayes A Naive-Bayes classifier for node.js
+* https://youtu.be/HZGCoVF3YvM Bayes theorem, the geometry of changing beliefs
